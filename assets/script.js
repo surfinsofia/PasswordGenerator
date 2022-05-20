@@ -29,8 +29,8 @@ function generatePassword() {
     return null
   }
 
-  var hasSpecChar = confirm('!nc)ude $pec*@l Charac+ers??!')
-  var hasNumber = confirm('1nc7ud3 Num83R5?')
+  var hasSpecChar = confirm('Inc)ude $pec*@l Charac+ers??!')
+  var hasNumber = confirm('Includ3 Num8eRS?')
   var hasLower = confirm('include lowercase letters?')
   var hasUpper = confirm('INCLUDE UPPER CASE LETTERS?')
 
