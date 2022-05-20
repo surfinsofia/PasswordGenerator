@@ -30,7 +30,7 @@ function generatePassword() {
   }
 
   var hasSpecChar = confirm('Inc)ude $pec*@l Charac+ers??!')
-  var hasNumber = confirm('Includ3 Num8eRS?')
+  var hasNumber = confirm('Includ3 Num8er5?')
   var hasLower = confirm('include lowercase letters?')
   var hasUpper = confirm('INCLUDE UPPER CASE LETTERS?')
 
