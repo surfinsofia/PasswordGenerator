@@ -21,18 +21,18 @@ function generatePassword() {
   var length = prompt("How many characters would you like your password to be?")
 
   if( length < 8){
-    alert('Select more than 8')
+    alert('Select more than 8 characters')
     return null
   }
   if( length > 128){
-    alert('Select less than 128')
+    alert('Select less than 128 characters')
     return null
   }
 
-  var hasSpecChar = confirm('Inc)ude $pec*@l Charac+ers??!')
-  var hasNumber = confirm('Includ3 Num8er5?')
-  var hasLower = confirm('include lowercase letters?')
-  var hasUpper = confirm('INCLUDE UPPER CASE LETTERS?')
+  var hasSpecChar = confirm('Include $pec*@l Characters? click cancel to exclude')
+  var hasNumber = confirm('Include numb3rs? click cancel to exclude')
+  var hasLower = confirm('include lowercase letters? click cancel to exclude')
+  var hasUpper = confirm('INCLUDE UPPER CASE LETTERS? click cancel to exclude')
 
   if(hasSpecChar === false && hasLower === false && hasUpper === false && hasNumber === false){
     alert('Must select at least one character type')
