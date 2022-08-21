@@ -29,8 +29,8 @@ function generatePassword() {
     return null
   }
 
-  var hasSpecChar = confirm('Include $pec*@l Characters? click cancel to exclude')
-  var hasNumber = confirm('Include numb3rs? click cancel to exclude')
+  var hasSpecChar = confirm('Include $pecial Characters? click cancel to exclude')
+  var hasNumber = confirm('1nclude numbers? click cancel to exclude')
   var hasLower = confirm('include lowercase letters? click cancel to exclude')
   var hasUpper = confirm('INCLUDE UPPER CASE LETTERS? click cancel to exclude')
 

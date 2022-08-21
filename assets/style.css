@@ -2,7 +2,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  
 }
+
 
 html,
 body,
@@ -14,7 +17,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #fafdf9;
 }
 
 .wrapper {
@@ -27,13 +30,16 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 100%);
+  font-family: monospace;
+  font-style: normal;
 }
 
 
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(100, 100%, 50%);
+  background-image: url(./code.gif);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -48,7 +54,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #00ff15;
   height: 2px;
 }
 
@@ -58,14 +64,16 @@ header {
 
 .card-footer {
   text-align: center;
+  background-color:rgba(0, 0, 0, 0);
 }
 
 .card-footer::before {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #40ff00;
   height: 2px;
+  background-color: rgb(0, 255, 30);
 }
 
 .card-footer::after {
@@ -88,11 +96,12 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  font-family: monospace;
 }
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background: #cfc0cf;
 }
 
 .float-right {
@@ -100,6 +109,7 @@ button[disabled] {
 }
 
 #password {
+  color: #00ff15;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
